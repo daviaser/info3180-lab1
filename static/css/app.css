@@ -1,10 +1,55 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 14px;
   line-height: 1.5;
+  background-image: url("09.png");
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
 }
+
+p{
+  grid-column: 2;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+  width: auto;
+  font-size: 17px;
+  line-height:2;
+  background-color: rgb(215, 189, 250);
+  border-radius: 40px;
+  border:solid;
+  box-shadow: 15px 15px 5px rgb(187, 186, 186);
+}
+
+h1{
+  background-color:lightblue;
+  text-align: center;
+  align-content: center;
+  padding: 40px;
+  font-size: 30px;
+}
+
+img{
+  grid-column: 1;
+  height: 450px;
+  width:500px;
+  align-self: center;
+  margin:5px;
+  margin-right:20px;
+}
+h2{
+  grid-column: 2;
+  background-color: rgb(158, 102, 165);
+  text-align:center;
+  border: dotted  rgb(172, 159, 248);
+  border-radius: 10px;
+  color: white;
+  margin-left: 20px;
+}
+
